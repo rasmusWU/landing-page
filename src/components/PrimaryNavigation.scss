@@ -1,0 +1,19 @@
+@import '../variables';
+
+.primaryNavigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    color: $primaryColor;
+    &__menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menuLink {
+        color: $secondaryColor;
+        padding: 0 1em;
+    }
+}
